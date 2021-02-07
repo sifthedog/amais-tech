@@ -13,8 +13,7 @@ const Ul = styled.ul<IUlProps>`
   li {
     padding: 18px 10px;
     div {
-      color: ${({ open }) => (open ? '#f7f7ff' : '#00467b')};
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       svg {
         margin: 8px;
         &:hover {
@@ -39,6 +38,9 @@ const Ul = styled.ul<IUlProps>`
     transition: transform 0.3s ease-in-out;
     li {
       color: #f7f7ff;
+      div {
+        color: 'inherit';
+      }
     }
   }
 `;
