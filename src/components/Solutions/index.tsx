@@ -6,7 +6,8 @@ import {
   FaDoorClosed,
 } from 'react-icons/fa';
 
-import { Container, CardSection, Card } from './styles';
+import Container from '../Container';
+import { CardSection, Card } from './styles';
 
 const Solutions: React.FC = () => {
   return (

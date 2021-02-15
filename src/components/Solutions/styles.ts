@@ -1,15 +1,5 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
-  display: flex;
-  margin: 16px auto;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 8px;
-  text-align: center;
-`;
-
 const CardSection = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -41,4 +31,4 @@ const Card = styled.div`
   height: 50vw;
 `;
 
-export { Container, CardSection, Card };
+export { CardSection, Card };
