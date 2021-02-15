@@ -21,6 +21,8 @@ const Ul = styled.ul<IUlProps>`
         }
       }
     }
+  }
+  li:not(:last-child) {
     &:hover {
       color: ${shade(0.4, '#EC610C')};
     }
