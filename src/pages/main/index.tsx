@@ -1,6 +1,7 @@
 import React from 'react';
 import Topbar from '../../components/Topbar';
 import AboutUs from '../../components/AboutUs';
+import Solutions from '../../components/Solutions';
 import Contact from '../../components/Contact';
 
 const Main: React.FC = () => {
@@ -8,6 +9,7 @@ const Main: React.FC = () => {
     <>
       <Topbar />
       <AboutUs />
+      <Solutions />
       <Contact />
     </>
   );
