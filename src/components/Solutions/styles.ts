@@ -7,6 +7,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 8px;
+  text-align: center;
 `;
 
 const CardSection = styled.div`
