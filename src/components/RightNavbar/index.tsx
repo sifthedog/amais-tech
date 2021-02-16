@@ -17,8 +17,12 @@ const RightNavbar: React.FC<IProps> = ({ open }) => {
       <li>Contato</li>
       <li>
         <div>
-          <FaFacebook />
-          <FaLinkedin />
+          <a href="https://www.facebook.com/amaistech/">
+            <FaFacebook />
+          </a>
+          <a href="https://www.linkedin.com/company/amais-tech">
+            <FaLinkedin />
+          </a>
         </div>
       </li>
     </Ul>

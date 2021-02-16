@@ -38,7 +38,7 @@ const ContentBox = styled.div`
   align-items: center;
   justify-content: center;
   color: #f7f7ff;
-  > div > svg {
+  > div svg {
     margin: 8px 16px;
     font-size: 24px;
     &:hover {

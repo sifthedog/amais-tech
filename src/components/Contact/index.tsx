@@ -20,8 +20,12 @@ const Contact: React.FC = () => {
         <ContentBox>
           <span>Redes sociais:</span>
           <div>
-            <FaFacebook />
-            <FaLinkedin />
+            <a href="https://www.facebook.com/amaistech/">
+              <FaFacebook />
+            </a>
+            <a href="https://www.linkedin.com/company/amais-tech">
+              <FaLinkedin />
+            </a>
           </div>
         </ContentBox>
         <ContentBox>
