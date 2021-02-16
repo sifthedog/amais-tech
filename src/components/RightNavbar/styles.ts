@@ -6,6 +6,7 @@ interface IUlProps {
 }
 
 const Ul = styled.ul<IUlProps>`
+  z-index: 1;
   list-style: none;
   display: flex;
   flex-flow: row nowrap;

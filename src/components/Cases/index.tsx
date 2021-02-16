@@ -22,7 +22,7 @@ const Cases: React.FC = () => {
   };
 
   return (
-    <Container>
+    <Container id="cases">
       <h1 style={{ color: '#f7f7ff' }}>Cases</h1>
       <StyledSlider {...settings}>
         <CarouselContent>

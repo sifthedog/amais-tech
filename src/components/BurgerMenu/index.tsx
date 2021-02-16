@@ -13,7 +13,7 @@ const BurgerMenu: React.FC = () => {
         <div />
         <div />
       </Burger>
-      <RightNavbar open={open} />
+      <RightNavbar open={open} onClick={() => setOpen(false)} />
     </>
   );
 };

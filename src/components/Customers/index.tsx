@@ -23,7 +23,7 @@ const Customers: React.FC = () => {
   };
 
   return (
-    <Container>
+    <Container id="customers">
       <h1>Clientes</h1>
       <StyledSlider {...settings}>
         <img src={googleLogo} alt="Google" />

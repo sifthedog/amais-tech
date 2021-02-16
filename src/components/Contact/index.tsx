@@ -12,7 +12,7 @@ import { BottomBar, Container, ContentBox } from './styles';
 
 const Contact: React.FC = () => {
   return (
-    <BottomBar>
+    <BottomBar id="contact">
       <Container>
         <ContentBox>
           <img src={logoAlt} alt="alternative logo" />

@@ -20,6 +20,7 @@ const Burger = styled.div<IBurgerProps>`
   div {
     width: 2rem;
     height: 0.25rem;
+    border: 1px solid #ec610c80;
     background-color: ${({ open }) => (open ? '#EC610C' : '#00467B')};
     border-radius: 10px;
     transform-origin: 1px;

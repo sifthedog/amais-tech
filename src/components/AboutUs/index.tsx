@@ -6,7 +6,7 @@ import { AboutContent } from './styles';
 
 const AboutUs: React.FC = () => {
   return (
-    <Container>
+    <Container id="aboutUs">
       <h1>Quem Somos</h1>
       <AboutContent>
         <div>
