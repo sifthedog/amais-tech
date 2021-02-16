@@ -34,6 +34,11 @@ export default createGlobalStyle`
     }
   }
 
+  a {
+    color: inherit !important;
+    text-decoration: none;
+  }
+
   button {
     cursor: pointer;
   }
