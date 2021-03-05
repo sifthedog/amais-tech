@@ -14,13 +14,18 @@ const AboutContent = styled.div`
       align-items: center;
     }
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     min-width: 50%;
     img {
       width: 100%;
     }
-    p {
-      margin: 24px;
+    div {
+      display: flex;
+      flex-direction: column;
+      margin: 8px;
+      > p {
+        margin: 8px;
+      }
     }
   }
 `;

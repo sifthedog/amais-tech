@@ -15,10 +15,14 @@ const AboutUs: React.FC = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              minus, asperiores odio sequi veniam suscipit distinctio, dolorem
-              ad voluptatibus repudiandae doloremque! Quod, aliquid deserunt!
-              Quae enim illo sapiente quam rem?
+              Atuamos há mais de 30 anos na área de tecnologia, trabalhando com
+              venda, locação, manutenção e instalação de soluções em Redes, CFTV
+              e Telecom.
+            </p>
+            <p>
+              Somos especialistas em projetos de telecomunicações, vídeo
+              monitoramento e redes lógicas para ambientes corporativos e órgãos
+              governamentais.
             </p>
           </div>
         </div>
