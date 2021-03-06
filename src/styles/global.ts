@@ -42,4 +42,8 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  .kelvinLogo {
+    background: #f26a36;
+  }
 `;
