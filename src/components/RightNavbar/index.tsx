@@ -40,6 +40,11 @@ const RightNavbar: React.FC<IProps> = ({ open, onClick }) => {
         </Link>
       </li>
       <li>
+        <Link to="partners" {...settings}>
+          Empresas Parceiras
+        </Link>
+      </li>
+      <li>
         <Link to="contact" {...settings}>
           Contato
         </Link>

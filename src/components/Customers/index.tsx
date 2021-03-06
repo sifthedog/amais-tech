@@ -11,7 +11,6 @@ import tronLogo from '../../assets/tronLogo.png';
 import qualyconLogo from '../../assets/qualyconLogo.png';
 import kelvinLogo from '../../assets/kelvinLogo.png';
 import saecLogo from '../../assets/saecLogo.png';
-import estivaLogo from '../../assets/estivaLogo.png';
 import SliderArrow from '../SliderArrow';
 import { Container, StyledSlider } from './styles';
 
@@ -34,30 +33,29 @@ const Customers: React.FC = () => {
     <Container id="customers">
       <h1>Clientes</h1>
       <StyledSlider {...settings}>
-        <img src={qualyconLogo} alt="Qualycon" />
+        <img
+          src={colegioJesusAdolescenteLogo}
+          alt="Colégio Jesus Adolescente"
+        />
         <img src={dlaPharmaLogo} alt="DLA Pharma" />
         <img src={fundacaoPadreAlbinoLogo} alt="Fundação Padre Albino" />
+        <img src={graficaSaoDomingosLogo} alt="Gráfica São Domingos" />
+        <img
+          src={hospitalSaoDomingosLogo}
+          alt="Hospital São Domingos Catanduva"
+        />
         <img
           src={kelvinLogo}
           className="kelvinLogo"
           alt="Kelvin Sistema de Ensino"
         />
-        <img
-          src={colegioJesusAdolescenteLogo}
-          alt="Colégio Jesus Adolescente"
-        />
-        <img src={graficaSaoDomingosLogo} alt="Gráfica São Domingos" />
-        <img src={estivaLogo} alt="Usina São José da Estiva" />
-        <img
-          src={hospitalSaoDomingosLogo}
-          alt="Hospital São Domingos Catanduva"
-        />
         <img src={linxLogo} alt="Linx" />
+        <img src={prefeituraSantaAdeliaLogo} alt="Prefeitura de Santa Adélia" />
+        <img src={qualyconLogo} alt="Qualycon" />
         <img
           src={saecLogo}
           alt="SAEC - Superintendência de Água e Esgoto Catanduva"
         />
-        <img src={prefeituraSantaAdeliaLogo} alt="Prefeitura de Santa Adélia" />
         <img src={tronLogo} alt="Tron Ventiladores" />
       </StyledSlider>
     </Container>
