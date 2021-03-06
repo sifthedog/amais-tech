@@ -27,6 +27,27 @@ const Customers: React.FC = () => {
     pauseOnDotsHover: true,
     nextArrow: <SliderArrow side="right" />,
     prevArrow: <SliderArrow side="left" />,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
 
   return (
