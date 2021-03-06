@@ -10,6 +10,8 @@ import prefeituraSantaAdeliaLogo from '../../assets/prefeituraSantaAdeliaLogo.pn
 import tronLogo from '../../assets/tronLogo.png';
 import qualyconLogo from '../../assets/qualyconLogo.png';
 import kelvinLogo from '../../assets/kelvinLogo.png';
+import saecLogo from '../../assets/saecLogo.png';
+import estivaLogo from '../../assets/estivaLogo.png';
 import SliderArrow from '../SliderArrow';
 import { Container, StyledSlider } from './styles';
 
@@ -45,11 +47,16 @@ const Customers: React.FC = () => {
           alt="Colégio Jesus Adolescente"
         />
         <img src={graficaSaoDomingosLogo} alt="Gráfica São Domingos" />
+        <img src={estivaLogo} alt="Usina São José da Estiva" />
         <img
           src={hospitalSaoDomingosLogo}
           alt="Hospital São Domingos Catanduva"
         />
         <img src={linxLogo} alt="Linx" />
+        <img
+          src={saecLogo}
+          alt="SAEC - Superintendência de Água e Esgoto Catanduva"
+        />
         <img src={prefeituraSantaAdeliaLogo} alt="Prefeitura de Santa Adélia" />
         <img src={tronLogo} alt="Tron Ventiladores" />
       </StyledSlider>
