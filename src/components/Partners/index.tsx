@@ -6,7 +6,7 @@ import intelbrasLogo from '../../assets/intelbrasLogo.png';
 import ubiquitiLogo from '../../assets/ubiquitiLogo.png';
 import hikvisionLogo from '../../assets/hikvisionLogo.png';
 import SliderArrow from '../SliderArrow';
-import { Container, StyledSlider } from './styles';
+import { Container, PartnersLogos } from './styles';
 
 const Partners: React.FC = () => {
   const settings = {
@@ -26,13 +26,13 @@ const Partners: React.FC = () => {
   return (
     <Container id="partners">
       <h1>Empresas Parceiras</h1>
-      <StyledSlider {...settings}>
+      <PartnersLogos {...settings}>
         <img src={digitroLogo} alt="Dígitro" />
         <img src={furukawaLogo} alt="Furukawa" />
         <img src={intelbrasLogo} alt="Intelbras" />
         <img src={hikvisionLogo} alt="Hikvision" />
         <img src={ubiquitiLogo} alt="Ubiquiti" />
-      </StyledSlider>
+      </PartnersLogos>
     </Container>
   );
 };

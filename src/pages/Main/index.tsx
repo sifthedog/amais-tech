@@ -13,7 +13,6 @@ const Main: React.FC = () => {
       <Topbar />
       <AboutUs />
       <Solutions />
-      <Cases />
       <Customers />
       <Partners />
       <Contact />

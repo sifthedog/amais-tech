@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Slider from 'react-slick';
 
 const Container = styled.div`
   margin: 16px auto;
@@ -11,17 +10,28 @@ const Container = styled.div`
   }
 `;
 
-const StyledSlider = styled(Slider)`
+const PartnersLogos = styled.div`
   display: flex;
   align-items: center;
   color: #00467b;
-  .slick-track {
-    display: flex !important;
-    align-items: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  img {
+    padding: 16px;
+    width: 20%;
+  }
+  @media (max-width: 900px) {
     img {
-      padding: 16px;
+      width: 25%;
+    }
+  }
+  @media (max-width: 750px) {
+    img {
+      width: 33%;
     }
   }
 `;
 
-export { Container, StyledSlider };
+export { Container, PartnersLogos };

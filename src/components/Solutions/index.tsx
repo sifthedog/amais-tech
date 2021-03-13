@@ -32,12 +32,6 @@ const Solutions: React.FC = () => {
           </div>
           <div>Telefonia</div>
         </Card>
-        <Card>
-          <div>
-            <FaDoorClosed />
-          </div>
-          <div>Portaria</div>
-        </Card>
       </CardSection>
     </Container>
   );
