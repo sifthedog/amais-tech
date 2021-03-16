@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  FaVideo,
-  FaBroadcastTower,
-  FaPhoneSquareAlt,
-  FaDoorClosed,
-} from 'react-icons/fa';
+import { FaVideo, FaBroadcastTower, FaPhoneSquareAlt } from 'react-icons/fa';
 
 import Container from '../Container';
 import { CardSection, Card } from './styles';
