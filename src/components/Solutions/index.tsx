@@ -1,32 +1,26 @@
 import React from 'react';
-import { FaVideo, FaBroadcastTower, FaPhoneSquareAlt } from 'react-icons/fa';
 
 import Container from '../Container';
-import { CardSection, Card } from './styles';
+import CardFlip from '../CardFlip';
+import { cardProperties } from './constants';
+import { CardSection } from './styles';
 
 const Solutions: React.FC = () => {
+  const [idFlipped, setIdFlipped] = React.useState('');
+
   return (
     <Container id="solutions">
       <h1>Soluções</h1>
       <CardSection>
-        <Card>
-          <div>
-            <FaVideo />
-          </div>
-          <div>Monitoramento</div>
-        </Card>
-        <Card>
-          <div>
-            <FaBroadcastTower />
-          </div>
-          <div>Conectividade</div>
-        </Card>
-        <Card>
-          <div>
-            <FaPhoneSquareAlt />
-          </div>
-          <div>Telefonia</div>
-        </Card>
+        {cardProperties.map(card => (
+          <CardFlip
+            key={card.id}
+            isFlipped={card.id === idFlipped}
+            handleOnHover={() => setIdFlipped(card.id)}
+            handleOnLeave={() => setIdFlipped('')}
+            {...card}
+          />
+        ))}
       </CardSection>
     </Container>
   );
