@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
         <ContentBox>
           <span>
             <FaEnvelope />
-            contato@amaistech.com.br
+            amaistech@amaistech.com.br
           </span>
           <span>
             <FaPhone />
